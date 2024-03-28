@@ -59,7 +59,7 @@ function App() {
           className="fixed bottom-0  z-[1000] hidden  h-[80px] w-full items-center justify-center border-t-[2px]
       border-solid border-gray-200 bg-[#FFFFFF] p-4 pt-[9px] mq500:flex"
         >
-          <div className="mq300:px-4 flex h-5/6 w-full justify-between px-8">
+          <div className="flex h-5/6 w-full justify-between px-8 mq300:px-4">
             <img
               className="h-[100%]  w-[33px] cursor-pointer"
               alt=""

@@ -263,11 +263,11 @@ export default function LoginPage() {
                       name="email"
                       onChange={(e) => setValue("email", e.target.value)}
                       placeholder="name@mail.com"
-                      className={`left-0 bottom-0 right-0 top-0 m-auto w-full ${
+                      className={` m-auto w-full ${
                         errors.email?.message
                           ? "border-red-800 "
                           : "border-cyan-700_01"
-                      }  absolute border border-solid`}
+                      }   border border-solid`}
                     />
                     <Button
                       type="button"
@@ -275,7 +275,7 @@ export default function LoginPage() {
                       color="cyan_700_01"
                       size="5xl"
                       variant="fill"
-                      className="absolute right-[1%] bottom-0 top-0 m-auto min-w-[170px] rounded-[15px]"
+                      className="absolute right-[1%] bottom-0 top-0 m-auto max-w-[170px] rounded-[15px]"
                     >
                       Send OTP
                     </Button>
